@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 29);
+    background-image: url("/Pictures/Background.png");
+    background-size: cover;
+    color: white;
+    margin: 0vh;
+    padding: 0vh;
+}
+h2.txt1 {
+    margin-top: 34vh;
+    margin-left: 39vw;
+    font-size: 7vh;
+    position: absolute;
+}
+h1.txt2 {
+    margin-top: 40vh;
+    margin-left: 17vw;
+    font-size: 15vh;
+    position: absolute;
+}
+h3.txt3 {
+    margin-top: 56vh;
+    margin-left: 43vw;
+    font-size: 7vh;
+    position: absolute;
+}
+div.next {
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+    cursor: pointer;
+}

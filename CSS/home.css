@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 29);
+    background-image: url("/Pictures/Background.png");
+    background-size: cover;
+    color: white;
+    margin: 0vh;
+    padding: 0vh;
+}
+div.home_info {
+    width: 65vw;
+    height: 55vh;  
+    margin: 5vh;  
+    margin-left: 5vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
+    position: absolute;
+}
+div#sect_blur {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
+
+    border-radius: 10px;
+}
+div.home_sections1 {
+    background-color: pink;
+    margin-left: 75vw;
+    margin-top: 5vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+}
+div.home_sections2 {
+    background-color: pink;
+    margin-left: 75vw;
+    margin-top: 25vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+}
+div.home_sections3 {
+    background-color: pink;
+    margin-left: 75vw;
+    margin-top: 45vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+}
+div.home_sections4 {
+    background-color: pink;
+    margin-left: 75vw;
+    margin-top: 65vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+}
+div.home_sections5 {
+    background-color: pink;
+    margin-left: 75vw;
+    margin-top: 85vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+}
+div.home_categories {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
+
+    width: 65vw;
+    height: 30vh;
+
+    margin: 65vh 5vh 5vh 10vh;
+    border-radius: 10px;
+    position: absolute;
+
+    text-align: center;
+
+    display: table;
+    
+}
+span.txt1 {
+    text-align: center;
+
+    font-size: 4vh;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+/* <div class="fa-3x">
+  <i class="fa-solid fa-basketball fa-bounce"></i>
+  <i class="fa-solid fa-volleyball fa-bounce"></i>
+
+  <!-- bounce animation with no "squish" -->
+  <i class="fa-solid fa-frog fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; " ></i>
+
+  <!-- bounce animation with no "squish" or "rebound" -->
+  <i class="fa-solid fa-envelope fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;" ></i>
+</div> */
