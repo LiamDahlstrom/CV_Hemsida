@@ -14,24 +14,49 @@ div.home_info {
     height: 55vh;  
     margin: 5vh;  
     margin-left: 5vw;
-    border-radius: 10px;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(20px);
     position: absolute;
+
+    border: solid white 5px;
+}
+div.pfp {
+    background-color: pink;
+    width: 20vw;
+    height: 40vh;
+    margin: 5vh;
+    border: solid white 5px;
+}
+h1.name {
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: -47vh;
+    font-size: 7vh;
+}
+p.info {
+    width: 37vw;
+    position: absolute;
+    margin-top: -37vh;
+    margin-left: 25vw;
+    text-align: left;
 }
 div#sect_blur {
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(20px);
+    border: solid white 5px;
 
-    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+div#sect_blur:hover {
+    transform: scale(1.05);
 }
 div.home_sections1 {
-    background-color: pink;
     margin-left: 75vw;
     margin-top: 5vh;
     position: absolute;
     width: 20vw;
     height: 10vh;
+    line-height: 10vh;
 }
 div.home_sections2 {
     background-color: pink;
@@ -40,6 +65,7 @@ div.home_sections2 {
     position: absolute;
     width: 20vw;
     height: 10vh;
+    line-height: 10vh;
 }
 div.home_sections3 {
     background-color: pink;
@@ -48,6 +74,7 @@ div.home_sections3 {
     position: absolute;
     width: 20vw;
     height: 10vh;
+    line-height: 10vh;
 }
 div.home_sections4 {
     background-color: pink;
@@ -56,6 +83,7 @@ div.home_sections4 {
     position: absolute;
     width: 20vw;
     height: 10vh;
+    line-height: 10vh;
 }
 div.home_sections5 {
     background-color: pink;
@@ -64,16 +92,16 @@ div.home_sections5 {
     position: absolute;
     width: 20vw;
     height: 10vh;
+
 }
 div.home_categories {
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px);
+    /* background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px); */
 
     width: 65vw;
     height: 30vh;
 
     margin: 65vh 5vh 5vh 10vh;
-    border-radius: 10px;
     position: absolute;
 
     text-align: center;
@@ -82,14 +110,25 @@ div.home_categories {
     
 }
 span.txt1 {
-    text-align: center;
-
     font-size: 4vh;
-    display: table-cell;
-    vertical-align: middle;
-
+    text-align: center;
 }
+div.social {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);    
 
+    width: 12vw;
+    height: 24vh;
+    border: solid white 5px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3vh;    
+
+    transition-duration: 0.5s;
+}
+div.social:hover {
+    transform: scale(1.1);
+}
 /* <div class="fa-3x">
   <i class="fa-solid fa-basketball fa-bounce"></i>
   <i class="fa-solid fa-volleyball fa-bounce"></i>
