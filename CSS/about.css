@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 29);
+    background-image: url("/Pictures/Background.png");
+    background-size: cover;
+    color: white;
+    margin: 0vh;
+    padding: 0vh;
+    overflow-y: hidden;
+}
+div.backstory {
+    width: 69vw;
+    height: 74vh;
+    margin-left: 2vh;
+    margin-top: 4vh;
+
+    position: absolute;
+
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
+}
+div.home_btn {
+    position: fixed;
+    width: 16vh;
+    height: 16vh;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
+
+    border-radius: 50%;
+
+    left: 2vh;
+    bottom: 2vh;
+    z-index: 20;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+div.home_btn .fa-house:before {
+    font-size: 400%;
+}
+h1.name {
+    position: absolute;
+    font-size: 8vh;
+    left: 3vh;
+    top: -3vh;
+}
+p.backstory {
+    font-size: 2.5vh;
+    text-align: left;
+    position: absolute;
+    left: 3vh;
+    top: 10vh;
+    width: 60vw;
+}
+div#sect_blur {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
+
+    transition-duration: 0.5s;
+}
+div.home_sections1 {
+    margin-left: 75vw;
+    margin-top: 4vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    line-height: 10vh;
+}
+div.home_sections2 {
+    margin-left: 75vw;
+    margin-top: 20vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    line-height: 10vh;
+
+}
+div.home_sections3 {
+    margin-left: 75vw;
+    margin-top: 36vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    line-height: 10vh;
+
+}
+div.home_sections4 {
+    margin-left: 75vw;
+    margin-top: 52vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    line-height: 10vh;
+
+}
+div.home_sections5 {
+    margin-left: 75vw;
+    margin-top: 68vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    line-height: 10vh;
+
+}
+div.home_sections6 {
+    margin-left: 75vw;
+    margin-top: 84vh;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    line-height: 10vh;
+
+}
+div.home_categories {
+    width: 65vw;
+    height: 30vh;
+
+    margin: 65vh 5vh 5vh 10vh;
+    position: absolute;
+
+    text-align: center;
+
+    display: table;
+    
+}
+span.txt1 {
+    font-size: 4vh;
+    text-align: center;
+}

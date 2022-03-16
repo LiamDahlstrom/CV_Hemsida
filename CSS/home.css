@@ -18,7 +18,6 @@ div.home_info {
     backdrop-filter: blur(20px);
     position: absolute;
 
-    border: solid white 5px;
 }
 div.pfp {
     background-color: pink;
@@ -43,7 +42,6 @@ p.info {
 div#sect_blur {
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(20px);
-    border: solid white 5px;
 
     transition-duration: 0.5s;
 }
@@ -57,42 +55,38 @@ div.home_sections1 {
     width: 20vw;
     height: 10vh;
     line-height: 10vh;
+
+    cursor: pointer;
 }
 div.home_sections2 {
-    background-color: pink;
     margin-left: 75vw;
-    margin-top: 25vh;
+    margin-top: 30vh;
     position: absolute;
     width: 20vw;
     height: 10vh;
     line-height: 10vh;
+
+    cursor: pointer;
 }
 div.home_sections3 {
-    background-color: pink;
     margin-left: 75vw;
-    margin-top: 45vh;
+    margin-top: 55vh;
     position: absolute;
     width: 20vw;
     height: 10vh;
     line-height: 10vh;
+
+    cursor: pointer;
 }
 div.home_sections4 {
-    background-color: pink;
     margin-left: 75vw;
-    margin-top: 65vh;
+    margin-top: 80vh;
     position: absolute;
     width: 20vw;
     height: 10vh;
     line-height: 10vh;
-}
-div.home_sections5 {
-    background-color: pink;
-    margin-left: 75vw;
-    margin-top: 85vh;
-    position: absolute;
-    width: 20vw;
-    height: 10vh;
 
+    cursor: pointer;
 }
 div.home_categories {
     /* background-color: rgba(255, 255, 255, .15);  
@@ -119,10 +113,11 @@ div.social {
 
     width: 12vw;
     height: 24vh;
-    border: solid white 5px;
     border-radius: 50%;
     display: inline-block;
     margin: 3vh;    
+    margin-left: 2.5vw;
+    cursor: pointer;
 
     transition-duration: 0.5s;
 }

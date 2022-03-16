@@ -10,20 +10,8 @@ body {
     padding: 0vh;
     overflow-y: hidden;
 }
-div.work {
-    width: 20vw;
-    height: 10vh;
-
-    margin-top: 45vh;
-    position: absolute;
-    transition-duration: 1s;
-
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px);
-
-    font-size: 4vh;
-
-    cursor: pointer;
+div.home_btn .fa-house:before {
+    font-size: 400%;
 }
 div.home_btn {
     position: fixed;
@@ -44,33 +32,26 @@ div.home_btn {
 
     cursor: pointer;
 }
-
 div.home_btn .fa-house:before {
     font-size: 400%;
 }
+div.website {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
 
-p.title {
-    margin-top: 3vh;
-}
-p.txt1 {
-    font-size: 2vh;
-    width: 18vw;
-    margin-left: 1vw;
-    text-align: left;
-    margin-top: -3vh;
-    opacity: 0%;
+    color: white;
 
-    transition-duration: 0.5s;
+    margin-top: -8vh;
+    margin-left: 40vw;
+    position: absolute;
+    width: 20vw;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 4vh;
+
+    cursor: pointer;
 }
-div#work1 {
-    margin-left: 5vw;
-}
-div#work2 {
-    margin-left: 28vw;
-}
-div#work3 {
-    margin-left: 52vw;
-}
-div#work4 {
-    margin-left: 75vw;
+p.text {
+    font-size: 10vh;
+    margin-top: 40vh;
 }
