@@ -1,26 +1,28 @@
 body {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: bold;
     background-color: rgb(0, 0, 29);
-    background-image: url("/Pictures/Background.png");
+    background-image: url("/Pictures/CV_Background2.png");
     background-size: cover;
     color: white;
     margin: 0vh;
     padding: 0vh;
+    overflow-y: hidden;
 }
 div.home_info {
     width: 65vw;
     height: 55vh;  
     margin: 5vh;  
     margin-left: 5vw;
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px);
     position: absolute;
 
+    background-color: #343fce;
+    border-bottom: 7px #2e3192 solid;
 }
 div.pfp {
-    background-color: pink;
+    background-image: url("/Pictures/pfp2.png");
+    background-size: cover;
     width: 20vw;
     height: 40vh;
     margin: 5vh;
@@ -33,55 +35,29 @@ h1.name {
     font-size: 7vh;
 }
 p.info {
+    font-size: 2vh;
     width: 37vw;
     position: absolute;
-    margin-top: -37vh;
+    margin-top: -39vh;
     margin-left: 25vw;
     text-align: left;
 }
 div#sect_blur {
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px);
+    background-color: #343fce;
+    border-bottom: 7px #2e3192 solid;
+    border-radius: 2vh;
 
     transition-duration: 0.5s;
 }
 div#sect_blur:hover {
     transform: scale(1.05);
 }
+div.sections {
+    float: right;
+    margin-right: 5vw;
+}
 div.home_sections1 {
-    margin-left: 75vw;
-    margin-top: 5vh;
-    position: absolute;
-    width: 20vw;
-    height: 10vh;
-    line-height: 10vh;
-
-    cursor: pointer;
-}
-div.home_sections2 {
-    margin-left: 75vw;
-    margin-top: 30vh;
-    position: absolute;
-    width: 20vw;
-    height: 10vh;
-    line-height: 10vh;
-
-    cursor: pointer;
-}
-div.home_sections3 {
-    margin-left: 75vw;
-    margin-top: 55vh;
-    position: absolute;
-    width: 20vw;
-    height: 10vh;
-    line-height: 10vh;
-
-    cursor: pointer;
-}
-div.home_sections4 {
-    margin-left: 75vw;
-    margin-top: 80vh;
-    position: absolute;
+    margin-top: 7vh;
     width: 20vw;
     height: 10vh;
     line-height: 10vh;
@@ -89,19 +65,15 @@ div.home_sections4 {
     cursor: pointer;
 }
 div.home_categories {
-    /* background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px); */
-
     width: 65vw;
     height: 30vh;
 
-    margin: 65vh 5vh 5vh 10vh;
+    margin: 65vh 5vh 5vh 7vh;
     position: absolute;
 
     text-align: center;
 
     display: table;
-    
 }
 span.txt1 {
     font-size: 4vh;
@@ -109,28 +81,18 @@ span.txt1 {
 }
 div.social {
     background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px);    
-
+    backdrop-filter: blur(20px);  
+    border: 7px #2e3192 solid;   
+    
     width: 12vw;
-    height: 24vh;
+    height: 12vw;
     border-radius: 50%;
-    display: inline-block;
-    margin: 3vh;    
-    margin-left: 2.5vw;
+    display: inline-block;  
+    margin-left: 3vw;
     cursor: pointer;
 
     transition-duration: 0.5s;
 }
 div.social:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
-/* <div class="fa-3x">
-  <i class="fa-solid fa-basketball fa-bounce"></i>
-  <i class="fa-solid fa-volleyball fa-bounce"></i>
-
-  <!-- bounce animation with no "squish" -->
-  <i class="fa-solid fa-frog fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; " ></i>
-
-  <!-- bounce animation with no "squish" or "rebound" -->
-  <i class="fa-solid fa-envelope fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;" ></i>
-</div> */

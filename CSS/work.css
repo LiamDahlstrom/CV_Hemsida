@@ -3,7 +3,7 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     background-color: rgb(0, 0, 29);
-    background-image: url("/Pictures/Background.png");
+    background-image: url("/Pictures/CV_Background2.png");
     background-size: cover;
     color: white;
     margin: 0vh;
@@ -18,9 +18,9 @@ div.work {
     position: absolute;
     transition-duration: 1s;
 
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px);
-
+    background-color: #343fce;
+    border-bottom: 7px #2e3192 solid;
+    border-radius: 2vh;
     font-size: 4vh;
 
     cursor: pointer;
@@ -31,6 +31,7 @@ div.home_btn {
     height: 16vh;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(20px);
+    border: 7px #2e3192 solid;
 
     border-radius: 50%;
 
@@ -60,6 +61,8 @@ p.txt1 {
     margin-top: -3vh;
     opacity: 0%;
 
+    overflow-y: scroll;
+
     transition-duration: 0.5s;
 }
 div#work1 {
@@ -74,3 +77,11 @@ div#work3 {
 div#work4 {
     margin-left: 75vw;
 }
+::-webkit-scrollbar {
+    width: 10px;
+    z-index: -200;
+}
+::-webkit-scrollbar-thumb {
+    background: #2e3192;
+}
+

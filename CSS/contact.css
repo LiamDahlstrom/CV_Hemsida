@@ -1,0 +1,84 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 29);
+    background-image: url("/Pictures/CV_Background2.png");
+    background-size: cover;
+    color: white;
+    margin: 0vh;
+    padding: 0vh;
+    overflow-y: hidden;
+}
+div.home_btn {
+    position: fixed;
+    width: 16vh;
+    height: 16vh;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
+    border: 7px #2e3192 solid;
+
+    border-radius: 50%;
+
+    left: 2vh;
+    bottom: 2vh;
+    z-index: 20;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+div.home_btn .fa-house:before {
+    font-size: 400%;
+}
+div.button {
+    background-color: #343fce;
+    border-bottom: 7px #2e3192 solid;
+    border-radius: 2vh;
+
+    color: white;
+
+    position: absolute;
+    width: 30vw;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 4vh;
+    display: inline-block;
+    text-align: center;
+
+    margin-top: 45vh;
+    margin-left: 55vw;
+
+    cursor: pointer;
+
+    transition-duration: 1s;
+}
+div.button2 {
+    background-color: #343fce;
+    border-bottom: 7px #2e3192 solid;
+    border-radius: 2vh;
+
+    color: white;
+
+    position: absolute;
+    width: 30vw;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 4vh;
+    display: inline-block;
+    text-align: center;
+
+    margin-top: 45vh;
+    margin-left: 15vw;
+
+    cursor: pointer;
+
+    transition-duration: 1s;
+}
+div.button2:hover {
+    transform: scale(1.05);
+}
+div.button:hover {
+    transform: scale(1.05);
+}

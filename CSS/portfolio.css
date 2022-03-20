@@ -3,15 +3,12 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     background-color: rgb(0, 0, 29);
-    background-image: url("/Pictures/Background.png");
+    background-image: url("/Pictures/CV_Background2.png");
     background-size: cover;
     color: white;
     margin: 0vh;
     padding: 0vh;
     overflow-y: hidden;
-}
-div.home_btn .fa-house:before {
-    font-size: 400%;
 }
 div.home_btn {
     position: fixed;
@@ -19,6 +16,7 @@ div.home_btn {
     height: 16vh;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(20px);
+    border: 7px #2e3192 solid;
 
     border-radius: 50%;
 
@@ -36,8 +34,9 @@ div.home_btn .fa-house:before {
     font-size: 400%;
 }
 div.website {
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(20px);
+    background-color: #343fce;
+    border-bottom: 7px #2e3192 solid;
+    border-radius: 2vh;
 
     color: white;
 
@@ -50,8 +49,15 @@ div.website {
     font-size: 4vh;
 
     cursor: pointer;
+
+    transition-duration: 1s;
 }
 p.text {
     font-size: 10vh;
     margin-top: 40vh;
+
+    text-shadow: 2px 2px 2px black;
+}
+div.website:hover {
+    transform: scale(1.05);
 }
