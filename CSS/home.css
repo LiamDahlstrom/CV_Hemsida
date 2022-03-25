@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     font-weight: bold;
     background-color: rgb(0, 0, 29);
-    background-image: url("/Pictures/CV_Background2.png");
+    background-image: url("/CV_Hemsida/Pictures/CV_Background2.png");
     background-size: cover;
     color: white;
     margin: 0vh;
@@ -21,7 +21,7 @@ div.home_info {
     border-bottom: 7px #2e3192 solid;
 }
 div.pfp {
-    background-image: url("/Pictures/pfp2.png");
+    background-image: url("/CV_Hemsida/Pictures/pfp2.png");
     background-size: cover;
     width: 20vw;
     height: 40vh;
@@ -31,14 +31,14 @@ div.pfp {
 h1.name {
     position: absolute;
     margin-left: 25vw;
-    margin-top: -47vh;
+    margin-top: -50vh;
     font-size: 7vh;
 }
 p.info {
     font-size: 2vh;
     width: 37vw;
     position: absolute;
-    margin-top: -39vh;
+    margin-top: -42vh;
     margin-left: 25vw;
     text-align: left;
 }
@@ -91,8 +91,20 @@ div.social {
     margin-left: 3vw;
     cursor: pointer;
 
+    position: relative;
+
+    font-size: 700%;
+
     transition-duration: 0.5s;
 }
 div.social:hover {
     transform: scale(1.05);
+}
+i#social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
